@@ -1,0 +1,192 @@
+@media (max-width: 600px) {
+    img.imgBGA {
+        display: none;
+    }
+    .container {
+        padding: 0;
+    }
+    .box-section-1, .box-section-2, .box-section-3, .box-section-4, .box-section-5 {
+        padding: 0px 20px;
+    }
+    .top-header.clearfix.sticky-header.container {
+        padding: 11px 20px 0px 20px;
+        align-items: center;
+        background: #FFF;
+        flex-wrap: wrap;
+    }
+    .intro-caret-double-down {
+        display: none;
+    }
+    .background-section {
+        padding: 80px 20px 0px;
+    }
+    a#logoPage img {
+        width: 46px;
+        height: 43px;
+    }
+    button.nav-bar-toggled {
+        display: block;
+        margin: 0 auto;
+        margin-right: 0;
+        background: none;
+        border: none;
+        outline: none;
+        transform: none;
+    }
+    .collapse:not(.show) {
+        display: none !important;
+    }
+    ul.nav.header-nav-main {
+        flex-direction: column;
+    }
+    div.navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        text-align: left;
+    }
+    li.main-menu-item {
+        padding: 10px 0px;
+    }
+    div.content-box-intro-1 h1.intro-content-title {
+        font-size: 31.25px;
+        line-height: 47px;
+    }
+    button.btn-default {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 6.5px 10px;
+    }
+    .content-box-intro-2>div>div>svg {
+        width: 40px;
+        height: 40px;
+    }
+    div.intro-box-text {
+        padding-bottom: 12px;
+    }
+    .intro-group {
+        padding-bottom: 20px;
+    }
+    .content-box-intro-3 {
+        padding-top: 38px;
+    }
+    .frame-section h3 {
+        padding: 0;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .intro-content-box-title {
+        padding: 39px 0px 20px;
+    }
+    .intro-content-box-title a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 4px 0px;
+    }
+    div.intro-content-box-title p {
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: none;
+    }
+    .content-box-intro-4>form {
+        padding: 0;
+        align-items: center;
+    }
+    label.intro-contact>svg {
+        width: 35px;
+        height: 35px;
+        top: 7px;
+        left: 7px;
+    }
+    label.intro-contact input, label.intro-contact textarea {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    label.intro-contact input {
+        padding: 7px 53px;
+    }
+    label.intro-contact textarea {
+        padding: 7px 0px 69.5px 53px;
+    }
+    img.intro-image-monitor {
+        display: none;
+    }
+    img.__not-monitor-img {
+        display: block;
+    }
+    div.content-box-intro-1 .content-title p {
+        font-size: 31.25px;
+        line-height: 47px;
+        margin: 0;
+    }
+    div.content-box-intro-1 .intro-title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .content-box-intro-1 div.content-title {
+        padding: 4px 0px 24px;
+    }
+    .box-image {
+        padding: 0;
+    }
+    div.box-content-first {
+        padding-bottom: 24px;
+    }
+    div.content-box-intro-2 div.intro-title h3,
+    div.content-box-intro-4 div.intro-title h3{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    div.content-box-intro-2 div.intro-title p,
+    div.content-box-intro-4 div.intro-title p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .frame-box {
+        margin-bottom: 12px;
+        padding: 15px 20px;
+    }
+    div.content-box-intro-3 div.intro-title p{
+        font-size: 31.25px;
+        line-height: 47px;
+        margin: 0;
+    }
+    div.content-box-intro-3 div.intro-content{
+        padding:12px 0px 24px;
+    }
+    .content-box-intro-4 div.intro-title{
+        padding: 0;
+    }
+    li.nav-intro-items svg {
+        width: 24px;
+        height: 24px;
+    }
+    ul.nav-intro-box li.nav-intro-items p{
+        line-height:24px;
+    }
+    .content-box-intro-4 {
+        margin-bottom: -15px;
+    }
+    .box-content-fourth {
+        padding-bottom: 21px;
+    }
+    form.form-contact {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,375 @@
+body {
+    background-color: #FCFCFD;
+    font-family: Roboto, sans-serif;
+}
+
+div.top-header.sticky-header {
+    position: fixed;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px 0px;
+}
+
+.content-box-intro-1 h4.intro-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    color: #000000;
+}
+
+.content-box-intro-1 div.content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 96px;
+    /* or 120% */
+    text-transform: uppercase;
+    padding: 12px 0px 40px;
+}
+
+.content-box-intro-1 div.content-title p.first {
+    color: #000000;
+}
+
+.content-box-intro-1 div.content-title p.second {
+    color: #D96451;
+}
+
+.flex-left {
+    margin-left: 0;
+}
+
+.flex-right {
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.content-box-intro-2 div.intro-title, .content-box-intro-4 div.intro-title {
+    padding-bottom: 20px;
+}
+
+.content-box-intro-2 div h3.title-top, .content-box-intro-4 div h3.title-top {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height, or 150% */
+    display: flex;
+    /* Orange */
+    color: #D96451;
+    margin: 15px 0px;
+}
+
+.content-box-intro-2 div p.title-main, .content-box-intro-4 div p.title-main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 47px;
+    /* identical to box height, or 150% */
+    display: flex;
+    text-transform: capitalize;
+    color: #080808;
+}
+
+.box-content {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frame-box {
+    padding: 31px 26px;
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #0880FB;
+    color: #0880FB;
+    margin-bottom: 25px;
+}
+
+.frame-box .frame-intro-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    /* Brand-Color */
+}
+
+.frame-box.frame-intro-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.frame-box:hover {
+    background: #0880FB;
+    color: #FFF;
+}
+
+a.menu-icon {
+    display: none;
+}
+
+div.main-menu-header {
+    display: flex !important;
+}
+
+li.main-menu-item {
+    padding: 4px 38px;
+}
+
+.content-box-intro-3 .intro-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    /* or 150% */
+    text-transform: uppercase;
+}
+
+.content-box-intro-3 .intro-title p.first {
+    color: #000000;
+}
+
+.content-box-intro-3 .intro-title p.second {
+    color: #D96451;
+}
+
+.content-box-intro-3 div.intro-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 24px 0px 64px;
+}
+
+button.btn-default:hover {
+    background: #FFF;
+    border: 1px solid #0880FB;
+    color: #0880FB;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    flex-basis: 68%;
+}
+
+li.main-menu-item a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li.main-menu-item.active>a {
+    color: #D96451;
+    border-bottom: 1px solid;
+}
+
+.box-content-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image {
+    width: 100%;
+}
+
+button.btn-default {
+    padding: 8px 23px;
+    background: linear-gradient(90deg, #05AEE3 -13.75%, #0880FB 42.83%, #0539E3 109.69%);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    width: fit-content;
+    filter: drop-shadow(0px 8px 16px rgba(8, 128, 251, 0.45));
+}
+
+ul.nav-intro-box li.nav-intro-items p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #000000;
+}
+ul.nav-intro-box li.nav-intro-items svg{
+    margin-right: 24px;
+}
+ul.nav-intro-box li.nav-intro-items{
+    display: flex;
+    flex-direction: row;
+}
+ul.nav-intro-box{
+    padding: 0
+}
+
+.box-section-2, .box-section-4 {
+    flex-direction: row-reverse;
+}
+
+.intro-content-box-title {
+    padding-bottom: 30px;
+}
+
+.intro-content-box-title a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height, or 150% */
+    display: flex;
+    justify-content: center;
+    /* Orange */
+    color: #D96451;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+
+div.intro-content-box-title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 47px;
+    /* identical to box height, or 150% */
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+button.nav-bar-toggled {
+    display: none;
+}
+
+.content-box-intro-4>form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+label.intro-contact>input {
+    padding: 13px 65px;
+}
+
+label.intro-contact>textarea {
+    padding: 13px 0px 130px 65px;
+}
+
+label.intro-contact input, label.intro-contact textarea {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+    border: 1px solid #0B305A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+label {
+    position: relative;
+    width: 100%;
+}
+
+label.intro-contact>svg {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+
+div.copyright-footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: -50px;
+}
+
+.__not-monitor-img {
+    display: none;
+}
+
+img.imgBGA {
+    position: absolute;
+}
+
+label.text-field.intro-contact {
+    padding-bottom: 20px;
+}
+img.round-cube{
+    left: -15%;
+    bottom: 19%;
+}
+img.sphere-orange{
+    right: -11.5%;
+    top: 35%;
+}
+img.cube-black-1{
+    right: 0;
+    top:0;
+}
+img.cube-orange{
+    left:0;
+    top:52%;
+}
+img.cube-blue-1{
+    right:20%;
+}
+img.toroid-orange{
+    right:0;
+    top:42%;
+}
+img.toroid-blue{
+    bottom:20%;
+    left: -10%;
+}
+img.cube-black{
+    right:10%;
+    top: 0;
+}
